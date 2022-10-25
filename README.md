@@ -55,7 +55,7 @@ dw.createWorkspaceFeatCrossRef(
 ```
 
 ## 4. Merge Features On Cross Reference:
-Iterates file paths in a cross reference file created by the ["Create Workspace Feature Cross Reference"](3-create-workspace-feature-cross-reference) tool and uses the field mapping/cross reference data to merge all datasets listed into a single output feature class.  The input feature classes are re-projected into a common projection system before the results are merged. The data source path will be retained in a column/field named 'merged_src'.           
+Iterates file paths in a cross reference file created by the ["Create Workspace Feature Cross Reference"](#3-create-workspace-feature-cross-reference) tool and uses the field mapping/cross reference data to merge all datasets listed into a single output feature class.  The input feature classes are re-projected into a common projection system before the results are merged. The data source path will be retained in a column/field named 'merged_src'.           
 
 ##### Python:
 ```python
