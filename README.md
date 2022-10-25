@@ -1,10 +1,16 @@
 # [Data-Wrangling-Toolbox-For-ArcGIS](https://github.com/GeoCodable/Data-Wrangling-Toolbox-For-ArcGIS)
 ### The [Data Wrangling Toolbox](https://github.com/GeoCodable/Data-Wrangling-Toolbox-For-ArcGIS) is a growing collection of ArcGIS Python tools used for common GIS ETL (Extract, Transform, and Load), pre-processing, and profiling tasks within ArcGIS.  
 
+### Versions:
+Written for and tested with ArcGIS Pro 3.2
+
+### Importing the toolbox in with arcpy
 ##### Python:
 ```python
+import arcpy
+
 # Import Toolbox Into ArcGIS Python Env
-DataWranglingTB = r'C:\YourFilePath\Data Wrangling_v0.0.1.pyt'
+DataWranglingTB = r'C:\YourFilePath\Data Wrangling.pyt'
 dw = arcpy.ImportToolbox(DataWranglingTB)
 ```
 
